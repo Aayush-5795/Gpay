@@ -38,13 +38,6 @@ public class FundTrasferController {
 	}
 
 	
-	@GetMapping("/port")
-	public String getPortNo() {
-		logger.info("Inside controller getPortNo() method..");
-		String port = environment.getProperty("local.server.port");
-		return "From Order app : " + port;
-	}
-	
 	@GetMapping("/checkAmount")
 	public Boolean checkAmount(@RequestParam String fromPhone,@RequestParam double amount) {
 		logger.info("Inside controller checkAmount() method..");
