@@ -19,4 +19,6 @@ Condition to Transfer Fund :
       1.In this Application User Create account  
       2.Do Fund Transfer to another account
       3.Get Statement By account number
+#exureka Server
+   Eureka server for the monitorig the both application status up/down.
  
