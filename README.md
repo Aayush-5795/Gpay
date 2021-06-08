@@ -1,5 +1,9 @@
 # Gpay
 This is the Main Application i.e. Gpay Application. Which interact with the Bank Application for the Account Creation in Gpay.
+API:
+    1.Register User in Gpay
+    2.Fund Transfer By Phone Number
+    3.Latest 10 Transaction History
 
 Condition to register in Gpay : 
   1.User must have an Account in Bank with Registered Phone Number.
@@ -9,3 +13,10 @@ Condition to Transfer Fund :
   2.Both User must have a Gpay Registered with Phone
   3.Source Account must have proper fund to transfer
   
+#Bank
+ This is a Bank Service Application. 
+ API :
+      1.In this Application User Create account  
+      2.Do Fund Transfer to another account
+      3.Get Statement By account number
+ 
