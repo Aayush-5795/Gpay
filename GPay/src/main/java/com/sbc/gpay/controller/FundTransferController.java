@@ -30,7 +30,7 @@ public class FundTransferController {
 		fundTransferService.fundTransferByPhone(fromPhone,toPhone,amount);
 		log.info("Exiting the fundTransferByPhone() method");
 		long endTime=System.currentTimeMillis();
-        log.info("Total Time taken in MiliSeconds for FundsTransferController.fundTransferByPhone()", endTime -startTime);
+       		log.info("Total Time taken in MiliSeconds for FundsTransferController.fundTransferByPhone()", endTime -startTime);
 	}
 	
 	
